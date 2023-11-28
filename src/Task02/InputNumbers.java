@@ -9,7 +9,7 @@ public class InputNumbers {
         System.out.print("Введите целое число: ");
         int i = scanner.nextInt();
 
-        String result = (i % 2 == 0) ? "чётное" : "нечётное";
+        String result = (i % 2 == 0) ? "чётным" : "нечётным";
         System.out.println("Число " + i + " является " + result + ".");
     }
 }
